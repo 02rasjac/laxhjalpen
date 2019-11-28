@@ -1,5 +1,9 @@
 @charset "utf-8";
-
+/* 
+==============
+    Global
+==============
+*/
 body {
     margin: auto;
     Width: 860px;
@@ -7,7 +11,7 @@ body {
     font-size: 100%;
 }
 
-header {
+.startpage > header, .subpage > header { /* Specifiera vilken header utifall att det finns flera headers på en sida*/
     text-align: center;
     padding: 20px 0 0;
 }
@@ -34,6 +38,33 @@ h1::first-letter {
     margin: 4em 0;
 }
 
+.menu a:link, .menu a:visited {
+    text-decoration: none;
+    color: #000;
+}
+
+.menu a:focus, .menu a:hover {
+    text-decoration: underline;
+    color: #A62F00;
+}
+
+.menu a:active {
+    text-decoration: underline;
+    color: #FF4900;
+}
+
+footer {
+    display: block;
+    margin-top: 3em;
+    text-align: center;
+    color: #999;
+}
+
+/*
+============
+Startpage
+============
+*/
 .startpage > header h1 {
     font-size: 500%;
     vertical-align: 53%;
@@ -65,24 +96,9 @@ h1::first-letter {
     height: 198px;
 }
 
-.menu a:link, .menu a:visited {
-    text-decoration: none;
-    color: #000;
-}
+/*
+============
+subpage
+============
+*/
 
-.menu a:focus, .menu a:hover {
-    text-decoration: underline;
-    color: #A62F00;
-}
-
-.menu a:active {
-    text-decoration: underline;
-    color: #FF4900;
-}
-
-footer {
-    display: block;
-    margin-top: 3em;
-    text-align: center;
-    color: #999;
-}
