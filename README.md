@@ -1,7 +1,7 @@
 # Läxhjälpen webbutveckling
 
-Detta är projektet för läxhjälpen i webbutveckling 1.
+Detta är ett projekt för läxhjälpen i webbutveckling 1.
 
 ##### Den innehåller:
- * startidan
+ * startsidan
  * om-oss
