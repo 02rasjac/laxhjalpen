@@ -1,3 +1,7 @@
-# Kapitel 5 webbutveckling
+# Läxhjälpen webbutveckling
 
-Detta är projektet för kapitel i webbutveckling 1
+Detta är projektet för läxhjälpen i webbutveckling 1.
+
+##### Den innehåller:
+ * startidan
+ * om-oss
