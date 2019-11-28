@@ -57,6 +57,7 @@ footer {
     display: block;
     margin-top: 3em;
     text-align: center;
+    clear: both;
     color: #999;
 }
 
@@ -102,3 +103,12 @@ subpage
 ============
 */
 
+.subpage > nav {
+    float: left;
+    width: 20%;
+    outline: solid red 1px; /* Temporär för att se boxen*/
+}
+
+div[role=main] {
+    margin-left: 25%;
+}
