@@ -116,6 +116,10 @@ subpage
     outline: solid red 1px; /* Temporär för att se boxen*/
 }
 
+.subpage header span {
+    color: rgb(231, 14, 14);
+}
+
 div[role="main"] {
     margin-left: 25%;
 }
