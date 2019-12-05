@@ -127,3 +127,16 @@ div[role="main"] > article:last-child {
     border-bottom: none;
     padding-bottom: 0
 }
+
+.alignleft {
+    float: left;
+    margin: 0 10px 15px 0;
+}
+
+.block > p {
+    margin-left: 140px;
+}
+
+.block > p:first-of-type {
+    margin-top: 0;
+}
