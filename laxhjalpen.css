@@ -66,6 +66,7 @@ footer {
 Startpage
 ============
 */
+
 .startpage > header h1 {
     font-size: 500%;
     vertical-align: 53%;
@@ -109,6 +110,18 @@ subpage
     outline: solid red 1px; /* Temporär för att se boxen*/
 }
 
-div[role=main] {
+div[role="main"] {
     margin-left: 25%;
+}
+
+div[role="main"] > article{
+    display: block;
+    padding-bottom: 1em;
+    margin-bottom: 2em;
+    border-bottom: 3px double #00af64;
+}
+
+div[role="main"] > article:last-child {
+    border-bottom: none;
+    padding-bottom: 0
 }
