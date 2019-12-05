@@ -104,6 +104,12 @@ subpage
 ============
 */
 
+.subpage > footer {
+    margin-top: 0;
+    padding: 1.5em;
+    border-top: 3px double #00af64;
+}
+
 .subpage > nav {
     float: left;
     width: 20%;
