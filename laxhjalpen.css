@@ -138,6 +138,11 @@ div[role="main"] > article:last-child {
     padding-bottom: 0
 }
 
+div[role="main"] figure > img {
+    width: 128px;
+    height: 128px;
+}
+
 .alignleft {
     float: left;
     margin: 0 10px 15px 0;
@@ -149,4 +154,18 @@ div[role="main"] > article:last-child {
 
 .block > p:first-of-type {
     margin-top: 0;
+}
+
+.bildcaption {
+    font: italic bolder 110% sans-seriff;
+    font-family: inherit;
+    text-align: center;
+    text-transform: uppercase;
+    color: #666;
+    margin-bottom: 1em;
+}
+
+.double {
+    border: 1px solid #ccc;
+    padding: 5px;
 }
