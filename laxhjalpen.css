@@ -22,6 +22,15 @@ h1 {
     margin: 0;
 }
 
+hr {
+    padding: 0.5em;
+
+    border-style: double;
+    border-width: 3px;
+    border-color: #00af64 transparent;
+    margin: 2em 0;
+}
+
 h1::first-letter {
     color: #00AF64;
 }
@@ -115,6 +124,23 @@ subpage
     width: 20%;
     outline: solid red 1px; /* Temporär för att se boxen*/
 }
+
+.subpage header a {
+    margin: 0 40px 0 0;
+    width: 172px;
+}
+
+.subpage .logo {
+    width: 146px;
+    height: 123px;
+}
+
+.subpage h1 {
+    font-size: 300%;
+    vertical-align: 40px;
+    width: 640px;
+}
+
 
 .subpage header span {
     color: rgb(231, 14, 14);
