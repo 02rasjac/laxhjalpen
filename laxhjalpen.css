@@ -209,7 +209,7 @@ subpage
 */
 
 .subpage > footer {
-    margin-top: 0;
+    margin-top: 0em;
     padding: 1.5em;
     border-top: 3px double #00af64;
 }
@@ -217,16 +217,23 @@ subpage
 .subpage > nav {
     float: left;
     width: 20%;
-    outline: solid red 1px; /* Temporär för att se boxen*/
 }
 
 .subpage > nav > ul {
-    margin: 0;
+    margin: 0em;
+    margin-bottom: 0em;
     padding: 0;
+    list-style-type: none;
 }
 
-.subpage > nav a {
-    list-style-type: none;
+.subpage > nav li {
+    margin: 1em;
+    padding: 1.4em;
+    text-align: center;
+    background-color: #F5f5f5;
+    border-radius: 50%;
+    box-shadow: inset 0 0 20px #007241;
+    font-family: 'Merienda One', cursive;
 }
 
 .subpage header a {
