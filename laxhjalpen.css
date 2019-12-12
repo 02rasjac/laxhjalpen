@@ -175,6 +175,15 @@ subpage
     outline: solid red 1px; /* Temporär för att se boxen*/
 }
 
+.subpage > nav > ul {
+    margin: 0;
+    padding: 0;
+}
+
+.subpage > nav a {
+    list-style-type: none;
+}
+
 .subpage header a {
     margin: 0 40px 0 0;
     width: 172px;
