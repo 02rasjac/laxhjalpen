@@ -35,8 +35,27 @@
         </label>
         <input type="text" id="uname" name="uname" required placeholder="Förnamn Efternamn" />
       </p>
+      <p>
+        <label for="umail">Email: 
+          <strong class="required" title="Obligatorisk uppgift">*</strong>
+        </label>
+        <input type="email" name="umail" id="umail" required placeholder="foo@bar.com" />
+      </p>
     </fieldset>
-    <fieldset id="TODO">
+    <fieldset id="message">
+      <legend>Meddelande</legend>
+      <p>
+        <label for="msubject">Ärende: 
+          <strong class="required" title="Obligatorisk uppgift">*</strong>
+        </label>
+        <input type="text" name="msubject" id="msubject" required placeholder="Ditt ärende" />
+      </p>
+      <p>
+        <label for="mmessage">Meddelande: 
+          <strong class="required" title="Obligatorisk uppgift">*</strong>
+        </label>
+        <textarea id="mmessage" name="mmessage" required placeholder="Skriv ditt meddelande här. Minst 25 tecken."></textarea>
+      </p>
     </fieldset>
     <fieldset id="submitbutton">
       <input type="submit" value="Skicka" />
