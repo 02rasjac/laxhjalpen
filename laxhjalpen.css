@@ -165,6 +165,54 @@ footer {
     color: #999;
 }
 
+/* forms */
+
+fieldset {
+    padding: 1em;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+legend {
+    font-size: larger;
+}
+
+form p {
+    position: relative;
+    margin: 1.5em 0;
+}
+
+label {
+    display: inline-block;
+    width: 85px;
+    margin-right: 5px;
+    text-align: right;
+    vertical-align: top;
+}
+
+label > strong {
+    position: absolute;
+    left: 305px;
+    text-align: left;
+    color: red;
+}
+
+input[type="text"], input[type="email"] {
+    width: 200px;
+}
+
+textarea {
+    width: 200px;
+    height: 100px;
+    resize: vertical;
+}
+
+input[type="submit"] {
+    display: block;
+    margin: auto;
+    border-radius: 3px;
+}
+
 /*
 ============
 Startpage
