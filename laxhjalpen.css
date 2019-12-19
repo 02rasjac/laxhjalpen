@@ -199,9 +199,11 @@ label > strong {
 
 input[type="text"], input[type="email"] {
     width: 200px;
+    padding-left: 3px;
 }
 
 textarea {
+    padding-left: 3px;
     width: 200px;
     height: 100px;
     resize: vertical;
